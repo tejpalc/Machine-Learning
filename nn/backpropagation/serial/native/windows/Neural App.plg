@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Neural App - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Neural App.res" /d "_DEBUG" "C:\Documents and Settings\tejpalc\My Documents\Neural+App1\Neural App.rc"" 
+Creating temporary file "C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2EE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Neural App.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\backprop.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\bpnet.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\brain.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\filedlgs.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\FileIO.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\Graph.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\Neural App.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\progbar.cpp"
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\trackbar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2EE.tmp" 
+Creating temporary file "C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2EF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Neural App.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\tejpalc\My Documents\Neural+App1\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2EF.tmp" 
+Creating temporary file "C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2F0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comctl32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Neural App.pdb" /debug /machine:I386 /out:"Debug/Neural App.exe" /pdbtype:sept 
+".\Debug\backprop.obj"
+".\Debug\bpnet.obj"
+".\Debug\brain.obj"
+".\Debug\filedlgs.obj"
+".\Debug\FileIO.obj"
+".\Debug\Graph.obj"
+".\Debug\Neural App.obj"
+".\Debug\progbar.obj"
+".\Debug\StdAfx.obj"
+".\Debug\trackbar.obj"
+".\Debug\Neural App.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2F0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+backprop.cpp
+C:\Documents and Settings\tejpalc\My Documents\Neural+App1\backprop.cpp(49) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\tejpalc\My Documents\Neural+App1\backprop.cpp(51) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\tejpalc\My Documents\Neural+App1\backprop.cpp(256) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+C:\Documents and Settings\tejpalc\My Documents\Neural+App1\backprop.cpp(257) : warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+bpnet.cpp
+brain.cpp
+filedlgs.cpp
+FileIO.cpp
+Graph.cpp
+Neural App.cpp
+progbar.cpp
+trackbar.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2F2.tmp" with contents
+[
+/nologo /o"Debug/Neural App.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\backprop.sbr"
+".\Debug\bpnet.sbr"
+".\Debug\brain.sbr"
+".\Debug\filedlgs.sbr"
+".\Debug\FileIO.sbr"
+".\Debug\Graph.sbr"
+".\Debug\Neural App.sbr"
+".\Debug\progbar.sbr"
+".\Debug\trackbar.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\tejpalc\LOCALS~1\Temp\RSP2F2.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Neural App.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
